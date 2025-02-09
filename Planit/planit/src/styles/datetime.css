@@ -1,0 +1,11 @@
+/* DateTime Component Styles */
+.datetime-container {
+    text-align: center;
+    padding: 8px;
+}
+
+.datetime-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}

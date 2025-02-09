@@ -1,0 +1,30 @@
+/* Navbar Container */
+.nav-container {
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+}
+
+/* Title Styling */
+.nav-title {
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem; 
+}
+
+/* Calendar Icon */
+.calendar-icon {
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    cursor: pointer;
+}
+
+/* Icon Size */
+.icon-size {
+    font-size: 1.25rem; 
+}

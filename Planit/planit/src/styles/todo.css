@@ -1,0 +1,124 @@
+/* To-Do Container */
+.todo-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+  }
+  
+  /* Input Section */
+  .todo-input-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .todo-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    color: black;
+  }
+  
+  .add-button {
+    padding: 10px 15px;
+    background: #333;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+  
+  .add-button:hover {
+    background: #555;
+  }
+  
+  /* Task List */
+  .task-heading {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    display: flex;
+    align-items: center;
+    background: #222;
+    margin-bottom: 5px;
+    padding: 8px;
+    border-radius: 5px;
+  }
+  
+  /* Task Text */
+  .task-text {
+    flex-grow: 1;
+    font-size: 18px;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  /* Buttons */
+  .edit-button,
+  .delete-button,
+  .save-button,
+  .toggle-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    font-size: 18px;
+    color: white;
+    transition: 0.3s;
+  }
+  
+  .edit-button:hover {
+    color: #4caf50;
+  }
+  
+  .delete-button:hover {
+    color: #f44336;
+  }
+  
+  .save-button:hover {
+    color: #2196f3;
+  }
+  
+  .completed-task {
+    color: green;
+  }
+  
+  .pending-task {
+    color: yellow;
+  }
+  
+  .toast {
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+    opacity: 0.9;
+    transition: opacity 0.5s ease;
+  }
+  
